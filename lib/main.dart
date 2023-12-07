@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple), // Установка схемы цветов
         useMaterial3: true, // Использование Material3, если доступно
       ),
-      // Установка главного экрана приложения в виде экземпляра HomeScreen
+      // Установка главного экрана приложения в виде экземпляра HomeScreen, в нем все функции
       home: HomeScreen(),
     );
   }
