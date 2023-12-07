@@ -91,7 +91,6 @@ Widget inter() {
                 runSpacing: 8.0,
                 children: labels.map((label) {
                   return Container(
-                    width: 49.0,
                     height: 32.0,
                     decoration: applyBoxDecoration(),
                     padding: EdgeInsets.all(8.0),
